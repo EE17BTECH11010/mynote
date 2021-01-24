@@ -1,0 +1,70 @@
+.c{
+    /* background-image: url('https://mcdn.wallpapersafari.com/medium/37/33/rS8nG0.jpg'); */
+    background-color: rgb(21, 22, 24);
+    /* background-size: cover; */
+    text-align: center;
+    opacity: 80;
+}
+/* below class is for the input of title and delete title */
+.titl{
+    background-color: rgb(249, 252, 255);  
+    width: 600px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+}
+span{
+    color:white;
+}
+/* below class is for fieldset */
+fieldset{
+    float: left;
+    width: 400px;
+    height: 205px;
+    max-width: 400px;
+    margin: 40px;
+    /* border:3px outset rgb(9, 199, 252); */
+    background-color: rgb(11, 48, 121);
+    /* padding-left: 50px; */
+    padding: 1px;
+    
+}
+/* below class is for buttons that are present inside fieldset */
+/* faced a problem that both input and save buttons are not aligned same way in vertical direction even 
+height is same because of the fontsize of the text in it. So it when fontsize is written in both the areas then it is working fine
+before font size is written only for input and not for buttons*/
+.btnnote{
+    height: 26px;
+    background-color:rgb(35, 40, 46);
+    border:  rgb(11, 48, 121);
+    color: white;
+    font-size: 14px;
+    margin: none;
+}
+/* below class is for the input element present inside fieldset  */
+.inptxtarea{
+    background-color: rgb(35, 40, 46);
+    /* width: 328px; */
+    width: 328px;
+    height:24px; 
+    text-align:center; 
+    color:white;
+    font-size: 14px;
+    border:rgb(11, 48, 121);
+    
+
+}
+
+/* below class is for text area boxes in fieldset */
+textarea{
+/* resize: none; */
+resize: none;
+width: 390px;
+/* width: 40px; */
+background-color: rgb(206, 200, 200);
+height: 173px;
+border:none;
+}  
+
